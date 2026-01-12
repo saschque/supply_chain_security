@@ -10,7 +10,7 @@ on:
 
 jobs:
   generate-sbom:
-    runs-on: ubuntu-latest
+    runs-on: docker.io/kodekloud/webapp-color:latest
     
     steps:
     - name: Checkout Repository
